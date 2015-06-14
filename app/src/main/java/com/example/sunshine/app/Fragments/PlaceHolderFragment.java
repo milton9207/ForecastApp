@@ -45,8 +45,6 @@ public class PlaceHolderFragment extends Fragment {
 
         ArrayList<String> forecastData = new ArrayList<String>(Arrays.asList(forecastArray));
 
-        forecastData.add("Today - Sunny - 88/63");
-        forecastData.add("Tomorrow - Foggy - 52/63");
 
         View view = inflater.inflate(R.layout.fragment_place_holder, container, false);
         listView = (ListView) view.findViewById(R.id.listview_forecast);
